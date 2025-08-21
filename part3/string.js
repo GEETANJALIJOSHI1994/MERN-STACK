@@ -41,3 +41,16 @@ animal2 = animal.slice(1,4);
 animal2 = animal.slice(-1);
 animal2 = animal.slice(length-2);
 console.log(animal2);
+
+
+// replace & repeat method
+
+let student3 = " i am payal";
+let s = student3.replace("payal","karan");
+console.log(s);
+
+let Repited= student3.repeat(5);
+console.log(Repited);
+
+
+
