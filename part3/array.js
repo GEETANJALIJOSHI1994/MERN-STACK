@@ -18,5 +18,27 @@ console.log(typeof num);
 let number = [1,2,3,4,5];
 let name = ["ram","raghaw","rohit"];
 let info = ["sheetal",4,7,9.0];
-console.log(number,name,info);
+let empty = []
+console.log(number,name,info,empty);
+
+ 
+
+// arrays are mutable
+
+let fruits = ["banana","mango","apple"];
+fruits[0] = "litchi";
+console.log(fruits);
+
+// array methods (push pop unsift sift)
+
+let markss = [57,89,34,78,55]
+console.log(markss.push(89));
+console.log(markss);
+console.log(markss.pop());
+console.log(markss);
+console.log(markss.unshift(80));
+console.log(markss);
+console.log(markss.shift);
+console.log(markss);
+
 
