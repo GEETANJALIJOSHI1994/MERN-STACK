@@ -42,3 +42,12 @@ console.log(markss.shift);
 console.log(markss);
 
 
+// indexOf array
+
+let colors = ["red","white","black"];
+console.log(colors.indexOf("red"));
+console.log(colors.indexOf("white"));
+console.log(colors.indexOf("black"));
+console.log(colors.indexOf("blue"));
+
+
