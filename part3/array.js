@@ -51,3 +51,16 @@ console.log(colors.indexOf("black"));
 console.log(colors.indexOf("blue"));
 
 
+// concat array method
+
+console.log(colors);
+let color1=colors.concat("yellow","pink","brown");
+console.log(color1);
+all_color = colors.concat(color1);
+console.log(all_color);
+
+
+// reverse method
+
+let color2 = colors.reverse();
+console.log(color2);
