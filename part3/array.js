@@ -64,3 +64,14 @@ console.log(all_color);
 
 let color2 = colors.reverse();
 console.log(color2);
+
+
+
+// slice method in  array :- copies a portion of an array
+
+
+let name7 = ["geet","radha","mohan","sohan","ram","mohit","kanak"];
+console.log(name7.slice(2));
+console.log(name7.slice(3,6));
+console.log(name7.slice(-5));
+console.log(name7.slice(-1));
