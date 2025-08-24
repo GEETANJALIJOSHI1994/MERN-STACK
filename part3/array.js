@@ -75,3 +75,14 @@ console.log(name7.slice(2));
 console.log(name7.slice(3,6));
 console.log(name7.slice(-5));
 console.log(name7.slice(-1));
+
+
+// splice method in arrey :-removes/replaces/a
+
+
+let flowers = ["Rose","Lili","Sunflower","Lotus","Tulip","Jasmin"];
+let flowers1 = flowers.splice(0,1,"Marigold","Orchid") //replace 
+console.log(flowers);
+console.log(flowers.splice(0,4));
+console.log(flowers.splice(2));
+console.log(flowers.splice(-2));
