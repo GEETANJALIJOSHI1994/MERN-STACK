@@ -81,8 +81,21 @@ console.log(name7.slice(-1));
 
 
 let flowers = ["Rose","Lili","Sunflower","Lotus","Tulip","Jasmin"];
+console.log(flowers);
 let flowers1 = flowers.splice(0,1,"Marigold","Orchid") //replace 
 console.log(flowers);
 console.log(flowers.splice(0,4));
+console.log(flowers);
 console.log(flowers.splice(2));
+console.log(flowers);
 console.log(flowers.splice(-2));
+console.log(flowers);
+
+
+// sort method in array :- sort the array
+
+let numm = [5,7,9,0,78,45,34,99]; //all values are conver to string than output is un orderd
+console.log(numm.sort());
+
+let fullName = ['niyat','geet',"mayank"];
+console.log(fullName.sort());
