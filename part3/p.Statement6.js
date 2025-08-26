@@ -6,3 +6,6 @@
 
 //  return the index of the "js" from the given array.if it was reverse
 
+let index = ['c','c++','html','javascript','python','java','c#','sql'];
+console.log(index);
+console.log(index.reverse());
