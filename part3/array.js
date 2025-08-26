@@ -99,3 +99,20 @@ console.log(numm.sort());
 
 let fullName = ['niyat','geet',"mayank"];
 console.log(fullName.sort());
+
+
+// array references
+
+ let arr  = ['a','b'];
+ let arrCopy = arr;
+ console.log(arrCopy);
+
+//  constant array
+
+const arrr = [1,2,3];
+console.log(arrr);
+console.log(arrr.push(6));
+console.log(arrr);
+
+
+
