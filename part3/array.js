@@ -114,5 +114,10 @@ console.log(arrr);
 console.log(arrr.push(6));
 console.log(arrr);
 
+// nested array :- multy dimentional array (array of arrays)
+
+let nums = [[1,2],[3,4],[5,6],[7,8]];
+console.log(nums)
+
 
 
