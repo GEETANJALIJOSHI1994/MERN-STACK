@@ -20,3 +20,8 @@ for(k=2;k<=10;k=k+2){
 
 
 // backword even number
+
+let l =100;
+for(l=100;l>=2;l=l-2){
+    console.log(l);
+}
