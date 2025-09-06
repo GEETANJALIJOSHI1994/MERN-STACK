@@ -8,5 +8,9 @@ let twitter ={
     reposts: 5,
     tag : ["@apna college","@graphic"]
 };
-let a = twitter;
-console.log(a);
+// let a = twitter;
+// console.log(a);
+console.log(twitter);
+
+console.log( twitter.like);
+
