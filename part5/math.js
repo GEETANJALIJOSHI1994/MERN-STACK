@@ -18,3 +18,23 @@ console.log(CEIL);
 
 let RANDOM = Math.random();
 console.log(RANDOM);
+
+console.log("-------------------");
+
+let num = Math.random();
+console.log(num);
+
+console.log("-------------------");
+
+let num2 = num *10;
+console.log(num2);
+
+console.log("-------------------");
+
+let num4 = Math.floor(FLOOR);
+console.log(num4);
+
+console.log("-------------------");
+
+let num3 = Math.floor(Math.random()*10) + 1;
+console.log(num3);
