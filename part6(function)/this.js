@@ -9,3 +9,8 @@ const students={
         console.log(`${this.name} got average marks = ${avg}`);
     }
 }
+
+
+
+//this with arrow function
+
