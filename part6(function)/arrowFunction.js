@@ -7,5 +7,5 @@ const cube=(n)=>{
 }
 
 const power =(a,b)=>{
-    return a**b
+    return a**b;
 }
