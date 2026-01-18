@@ -12,3 +12,16 @@ let odd=[1,3,5,7];
 let even=[2,4,6,8];
 let num=[...odd,...even];
 console.log(num);
+
+
+//wit object literals
+
+let data={
+    email:"geetanjalijoshi900@gmail.com",
+    password:"yuijhghgfgf",
+};
+newdata={
+    ...data,id:1,city:'pune'
+};
+console.log(newdata);
+
