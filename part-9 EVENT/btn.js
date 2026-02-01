@@ -3,8 +3,9 @@ console.dir(btns);
 
 for(btn of btns){
     btn.onclick = sayHello;
-    // btn.onmouseenter = function(){
-    // console.log('you entered a button');
+    btn.onmouseenter = function(){
+    console.log('you entered a button');
+}
 }
 console.dir(btn);
 
